@@ -1,0 +1,113 @@
+<!--
+  Nama        : Sabrina Zahra Salsabila
+  NIM         : 118140177
+  Kelas       : RC
+  Link GitHub : https://github.com/118140177SabrinaZahraSalsabila/prak-pemweb
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Praktikum 2 [118140177]</title>
+  <link href="118140177_Sabrina Zahra Salsabila_Prak2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="cv" border="1">
+    <header class="atas">
+      <img src="https://media.licdn.com/dms/image/C5603AQFNedFltZ85Zw/profile-displayphoto-shrink_800_800/0/1607250910791?e=2147483647&v=beta&t=UJqShrslnSGJiRxdghwomjqx4gLWUCTrQw8IHjcBq0c" alt="Sabrina Zahra Salsabila" height="200" width="200" class="gambar">
+      <h1>It's Me, Sabrina Zahra Salsabila</h1>
+    </header>
+    
+    <nav class="navbar">
+      <li class="menu"><a href="#tentangsaya">Tentang Saya</a></li>
+      <li class="menu"><a href="#pengalamanorganisasi">Pengalaman Organisasi</a></li>
+      <li class="menu"><a href="#socialmedia">Social Media</a></li>
+      <li class="menu"><a href="#hubungi">Hubungi Saya</a></li>
+    </nav>
+
+    <div class="tentang">
+      <h2><a id="tentangsaya">Tentang Saya</a></h2>
+      <p>Saya Sabrina Zahra Salsabila dengan NIM 118140177 merupakan salah satu mahasiswa dari Institut Teknologi Sumatera. Program studi yang saya ambil adalah Teknik Informatika. Hobi saya salah satunya adalah bermain game. Berikut ini contoh video dari game yang saya mainkan : </p>
+      <div class="video">
+        <iframe width="320" height="240" src="https://youtube.com/embed/c4cwcihb-KE" title="Game Undawn">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="pengalaman">
+      <h2><a id="pengalamanorganisasi">Pengalaman Organisasi</a></h2>
+      <table border="1">
+        <caption align="bottom">
+          <b>Tabel Pengalaman Organisasi
+          </caption>
+          <tr>
+            <th rowspan="2" class="judultabel">No.</th>
+            <th rowspan="2" class="judultabel">Posisi</th>
+            <th rowspan="2" class="judultabel">Perusahaan</th>
+            <th colspan="2" class="judultabel">Waktu</th>
+          </tr>
+          <tr>
+            <th class="judultabel">Mulai</th>
+            <th class="judultabel">Selesai</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Anggota</td>
+            <td>Divisi Desain dan Kreatif HMIF</td>
+            <td>2020</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Anggota</td>
+            <td>Terafilm</td>
+            <td>2020</td>
+            <td>2021</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="sosmed">
+        <h2><a id="socialmedia">Social Media</a></h2>
+        <p>Berikut ini beberapa link social media yang saya pakai :</p>
+        <ul style="list-style-type: circle;">
+          <li class="menu"><a href="https://github.com/118140177SabrinaZahraSalsabila/prak-pemweb">GitHub</a></li>
+          <li class="menu"><a href="https://www.instagram.com/sabrinazahrasalsabila/">Instagram</a></li>
+          <li class="menu"><a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=sabrina.118140177@student.itera.ac.id" target="_blank" rel="nofollow noopener" title="Send email with Gmail">Email</a></li>
+        </ul>
+      </div>
+      
+      <form method="post" class="kontak">
+        <h2><a id="hubungi">Hubungi Saya</a></h2>
+        <p>
+          <label for="nama">Nama :</label>
+          <input type="text" id="nama" name="nama">
+        </p>
+        <p>
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email">
+        </p>
+        
+        <p>Kepentingan : </p>
+        <input type="radio" name="opsi" value="bisnis">Bisnis<br>
+        <input type="radio" name="opsi" value="kerjasama">Kerjasama<br><br>
+        
+        <p>Hobi Anda adalah : </p>
+        <input type="checkbox" name="hobi" value="game">Game<br>
+        <input type="checkbox" name="hobi" value="komik">Komik<br>
+        <input type="checkbox" name="hobi" value="film">Film<br>
+        <input type="checkbox" name="hobi" value="olahraga">Olahraga<br><br>
+    
+        <button class="btn" type="submit">Kirim</button>
+      </form>
+      
+      <footer class="bawah">
+         <p>Copyright © 118140177 Sabrina Zahra Salsabila.</p>
+      </footer>
+    </div>
+  </body>
+</html>
