@@ -1,0 +1,25 @@
+/*
+  Nama        : Sabrina Zahra Salsabila
+  NIM         : 118140177
+  Kelas       : RC
+  Link GitHub : https://github.com/118140177SabrinaZahraSalsabila/prak-pemweb
+*/
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  background-color: lightpink;
+}
+
+input[type="number"] {
+  padding: 5px;
+  margin: 5px;
+  background-color: deeppink;
+  color: white;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: deeppink;
+  color: white;
+}
